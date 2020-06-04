@@ -23,6 +23,19 @@ export const AssociationHome = ({ association }) => {
         <ErrorMessage>{error}</ErrorMessage>
     ) : data.count === 0 ? (
         <Container className={"text-center"}>
+            <Link to="/" className="display-4">
+                Lien vers l’accueil
+            </Link><br/>
+            <Link to="/trombi" className="display-4">
+                Lien vers le trombi
+            </Link><br />
+            <Link to="/associations/" className="display-4">
+                Lien vers les associations
+            </Link><br />
+            <Link to="/sondages" className="display-4">
+                Lien vers les sondages
+            </Link><br />
+
             <Instructions
                 title={"Accueil"}
                 emoji={"🏡"}

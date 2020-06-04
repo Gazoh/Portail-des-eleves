@@ -28,6 +28,23 @@ export const Trombi = () => {
         <Container className="mt-5">
             <PageTitle>Trombinoscope</PageTitle>
 
+            <Link to="/" className="display-4">
+                Lien vers l’accueil
+            </Link>
+            <br />
+            <Link to="/trombi" className="display-4">
+                Lien vers le trombi
+            </Link>
+            <br />
+            <Link to="/associations/" className="display-4">
+                Lien vers les associations
+            </Link>
+            <br />
+            <Link to="/sondages" className="display-4">
+                Lien vers les sondages
+            </Link>
+            <br />
+
             <Row className="mb-5">
                 <Col md={3}>
                     <InputGroup className="mb-3" tabIndex={0}>
