@@ -4,7 +4,7 @@ import { CheckboxField } from "./CheckboxField";
 import { useURLState } from "../../../utils/useURLState";
 
 /**
- * `SidebarStatusSelector` is a sidebar component to search transactions with
+ * `SidebarStatusSelector` is a sidebar component to search items with
  * a particular status in the sidebar. Its architecture is the same as
  * `TagSearch`
  * @param setParams a useState setter to change the query parameters
@@ -22,7 +22,7 @@ export const SidebarStatusSelector = ({
 }: {
     setParams: (object) => void;
     statuses: { value: string; label: string }[];
-    defaultState: any; //([key: string]: boolean);
+    defaultState: { [key: string]: boolean };
     queryKey?: string;
 }) => {
     const [checkboxState, setCheckboxState] = useURLState(

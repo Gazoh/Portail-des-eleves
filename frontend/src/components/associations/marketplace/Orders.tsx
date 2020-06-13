@@ -22,7 +22,7 @@ const orderStatus = [
     { value: "CANCELLED", label: "Annulé" },
     { value: "REJECTED", label: "Refusé" },
     { value: "VALIDATED", label: "Validé" },
-    { value: "DELIVERED", label: "Livrée" },
+    { value: "DELIVERED", label: "Livré" },
     { value: "REFUNDED", label: "Remboursé" },
 ];
 
